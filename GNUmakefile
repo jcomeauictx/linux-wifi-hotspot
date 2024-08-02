@@ -1,4 +1,4 @@
-DESTDIR := $(HOME)
+DESTDIR ?= $(HOME)
 export
 default:
 	$(MAKE) -f Makefile install-cli-only
